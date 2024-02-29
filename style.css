@@ -1,0 +1,85 @@
+body {
+    background: rgb(100, 117, 175);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* buttons */
+.but--mode {
+    height: 60px;
+    width: 260px;
+    background: linear-gradient(to top right, rgb(0, 255, 200), rgb(5, 103, 133));
+    padding: 10px;
+    text-align: center;
+    margin-right: 30px;
+    border-radius: 40px;
+    border: none;
+    position: absolute;
+    top: 12%;
+    font-size: 25px;
+    font-weight: 700;
+    transition: .5s all;
+}
+
+.btn--active {
+    border: 2px solid black;
+    top: 10%;
+}
+
+.dark {
+    left: 26%;
+    z-index: 10;
+}
+
+.bright {
+    left: 53%;
+    z-index: 10;
+}
+
+/* div elements */
+.mode--div {
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    left: 20%;
+    top: 16%;
+    border-radius: 50px;
+    box-shadow: 2px 4px 10px rgb(0, 0, 0, 0.6);
+    transition: .5s opacity;
+    opacity: 0;
+}
+
+.div--dark {
+    background: black;
+}
+
+.div--bright {
+    background: rgb(228, 224, 224);
+}
+
+.active__mode {
+    opacity: 1;
+}
+
+/* symbols */
+.sym {
+    font-size: 200px;
+    color: white;
+    position: relative;
+    left: 37%;
+    top: 30%;
+}
+
+
+
+.moon-sym {
+    border-radius: 200px;
+    box-shadow: 0px 0px 500px rgba(253, 251, 251, 0.6);
+    background: rgba(95, 94, 94, 0.2);
+}
+
+.sun-sym {
+    border-radius: 200px;
+    color: black;
+    box-shadow: 0px 0px 700px rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.1);
+}
